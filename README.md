@@ -1,10 +1,10 @@
 # ORUS_prueba
 
-Este es un repositorio de prueba para el curso de Git y GitHub de ORUS.
+Este es un repositorio de prueba para el puesto de trabajo como desarrollador FullStack de Git y GitHub de ORUS.
 
 ## Descripción
 
-En este repositorio se encuentran los archivos y carpetas que se han creado durante el curso, así como los ejercicios propuestos.
+En este repositorio se encuentran los archivos y carpetas que se han creado durante el desarrollo de la prueba.
 
 ## Instalación
 
