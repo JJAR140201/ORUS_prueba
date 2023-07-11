@@ -11,8 +11,6 @@ import java.util.Date;
 @Getter
 @Setter
 @ToString
-@AllArgsConstructor
-@NoArgsConstructor
 public class Frutas {
 
     @Id
