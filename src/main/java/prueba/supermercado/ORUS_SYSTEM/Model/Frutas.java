@@ -17,7 +17,7 @@ public class Frutas {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
 
     @Column(name = "tipo")
     private String tipo;

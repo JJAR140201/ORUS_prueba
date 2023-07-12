@@ -16,7 +16,7 @@ import java.util.Date;
 public class Pedidos {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Integer id;
+    private Long id;
 
     @Column(name = "lista_frutas")
     private String listaFrutas;
@@ -29,8 +29,4 @@ public class Pedidos {
 
     @Column(name = "fecha_actualizacion")
     private Date fechaActualizacion;
-
-    @ManyToOne
-    @JoinColumn(name = "id", referencedColumnName = "id")
-    private Frutas fruta;
 }
