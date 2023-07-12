@@ -29,7 +29,7 @@ public class PedidosController {
         return ResponseEntity.ok(pedidos);
     }
 
-    @PutMapping("/frutas/{id}")
+    @PutMapping("/pedidos/{id}")
     public ResponseEntity<Pedidos> actualizarFrutas(@PathVariable Long id, @RequestBody Pedidos pedidosDetalle){
         Pedidos pedidos = pedidosRepository.findById(id)
                 .orElseThrow(() -> new ResourceNotFoundException("No Existe la fruta" + id));
